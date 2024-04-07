@@ -1,11 +1,10 @@
 import React from 'react';
-import me from './Images/me.jpg';
 
 const Main = () => {
   return (
     <main>
       <div id="home">
-        <img src={require('./Images/me.jpg')} height="20%" width="20%"></img>
+        <img loading="lazy" src={require('./Images/me.webp')} height="20%" width="20%"></img>
         <h1 ><strong>Who am I?</strong></h1>
       </div>
       <p>
@@ -18,7 +17,7 @@ const Main = () => {
       </p>
       <div>
         <p>Im currently learning react by making this website whilst following this tutorial, please check it out it is very useful.</p>
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="React JS Crash Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="640" height="360" loading="lazy" src="https://www.youtube.com/embed/w7ejDZ8SWv8" title="React JS Crash Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <br></br><a href="https://www.youtube.com/watch?v=w7ejDZ8SWv8&t=815s">Link to video</a>
         <p>I have a github profile where this page will be uploaded: <a href="https://github.com/Greg-Owen">My profile</a></p>
       </div>
@@ -47,13 +46,13 @@ const Main = () => {
             parts search site which incorporates both ChatGPT and eBay API's.</li>
           <li>I have also been working on and off on a personal multiplayer platformer game which I am building 
             from scratch. It has yet to be uploaded to github but here is a screenshot of it:<br></br>
-            <img src={require('./Images/PlatformerPrototypeScreenShot.png')} height="40%" width="60%"></img></li>
+            <img loading="lazy" src={require('./Images/PlatformerPrototypeScreenShot.webp')} height="37%" width="55%"></img></li>
         </ul>
 
       </div>
       <div id="education">
         <h1>What have I learned?</h1>
-        <img src={require('./Images/langara.jpg')} height="20%" width="20%"></img>
+        <img loading="lazy" src={require('./Images/langara.webp')} height="17%" width="17%"></img>
         <p>
           I'm currently studying at <a href="https://langara.ca/">Langara College</a> where I am a second year computer science student. Before I 
           started studying computer science I took a year of applied science and engineering, so not only does my coursework include data structures and algorithms, 

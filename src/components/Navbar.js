@@ -2,7 +2,6 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    // <nav style={navstyle}>
     <nav>
         <ul>
             <li><a href="#home">Home</a></li>
